@@ -16,5 +16,15 @@ main {
         h2 {
             color: $primary-color;
         }
+        p {
+            color: $information-color;
+        }
+        ul {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: end;
+        }
     }
 }

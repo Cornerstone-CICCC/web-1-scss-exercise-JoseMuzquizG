@@ -3,3 +3,9 @@
     justify-content: center;
     align-items: center;
 }
+
+@mixin flex-list {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
